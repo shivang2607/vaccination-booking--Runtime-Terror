@@ -1,13 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import { Table, Col, Label, Row, Container } from 'react-bootstrap'
+import React from 'react';
+import {Col, Row, Container } from 'react-bootstrap'
+
 import '../bg.css'
 
 export const Certify = (props) => {
 
     return (
         <>
+            
 
-            <div style={{ minHeight: '110vh' }}>
+            <div style={{ minHeight: '100vh', margin:'20px'}}>
                 <label style={{ fontSize: '2rem', margin: '0px auto', display: 'flex', justifyContent: 'center', color: 'black', width: '60%', fontWeight: 'bold' }}>Vaccination Appointment Booked</label>
                 <div style={{ margin: '15px auto', width: '60%', border: '1px solid grey', borderRadius: '15px', minHeight: '40vh' }}>
                     <Container style={{ borderRadius: '15px', backgroundColor: 'white' }} id='container'>
@@ -67,6 +69,7 @@ export const Certify = (props) => {
                         </div>
                     </Container>
                 </div>
+               
             </div>
         </>
     )

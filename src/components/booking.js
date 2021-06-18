@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Table, Col, Form, Button } from 'react-bootstrap'
 import {Certify} from './certify'
+import {Header} from './Header'
 
 export const Booking = () => {
   const [stateid, setStateid] = useState([]);
@@ -76,7 +77,7 @@ export const Booking = () => {
   }
   const formstyle = {
     padding: '20px',
-    margin: 'auto',
+    margin: '30px auto',
     border: '1px solid grey',
     width: '60%',
     minHeight: '30vh'
@@ -128,7 +129,7 @@ export const Booking = () => {
   console.log(hos);
   return (
     <>
-
+    <Header/>
     {certifycomponent?<div>
       <div style={formstyle}>
         <Form className='ml-3' onSubmit={submit}>
