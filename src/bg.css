@@ -1,0 +1,10 @@
+body{
+    /* background: url('./components/COVID-19-VACCINE-GENERIC-BLUE-BACKGROUND.jpg') no-repeat cover; */
+    background-image: url(./components/Three_Vials_Covid_Virus_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+#container{
+    z-index: 2;
+}
